@@ -1,0 +1,48 @@
+.tarot-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.tarot-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.tarot-card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-name {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.loading {
+  font-size: 1.5rem;
+  color: #666;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+.tarot-footer {
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  background-color: rgba(230, 133, 65, 0.3);
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  border-top: 2px solid rgba(230, 133, 65, 0.6);
+  box-sizing: border-box;
+}
+
+.footer-text,
+.footer-copy {
+  margin: 10px 0;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+}
+
+.footer-logo {
+  margin-top: 15px;
+}
+
+.footer-logo img {
+  max-width: 80px;
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.7));
+}
