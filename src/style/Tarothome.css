@@ -24,9 +24,11 @@ body {
 .cards-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(3, 1fr); /* siempre 3 columnas */
-  padding: 1rem 0 2rem;
+  grid-template-columns: repeat(3, 1fr); 
+  padding: 1rem 2rem 2rem; /* <-- 2rem a los lados */
+  box-sizing: border-box;
 }
+
 
 /* Carta como botón pero sin marco ni fondo */
 .tarot-card {

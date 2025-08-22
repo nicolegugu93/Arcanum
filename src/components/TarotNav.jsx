@@ -30,7 +30,7 @@ const TarotNav = () => {
 
           <div className={`nav-links ${isOpen ? "active" : ""}`}>
             <a href="/" className="nav-button">El tarot</a>
-            <a href="/editcards" className="nav-button">Echa tus cartas</a>
+            
           </div>
         </nav>
       </div>
